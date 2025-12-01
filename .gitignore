@@ -97,3 +97,28 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ========== RIDER (JetBrains) ==========
+.idea/
+*.iml
+*.iws
+.idea.DotSettings
+
+# Rider plugin caches
+Assets/Plugins/Editor/JetBrains*
+Assets/Plugins/JetBrains*
+
+# ========== VISUAL STUDIO ==========
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.ruleset
+
+# Visual Studio caches
+*.obj
+*.cache
+*.pdb
+*.ipch
+*.db
+*.opendb
+*.VC.db
