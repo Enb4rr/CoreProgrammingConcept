@@ -20,10 +20,13 @@ public class Ball : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        
         UpdatePhysics("bouncy");
     }
     
+    /// <summary>
+    /// Updates ball physics depending on input
+    /// </summary>
+    /// <param name="profile"></param>
     public void UpdatePhysics(string profile)
     {
         switch (profile)
